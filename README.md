@@ -5,7 +5,15 @@ It uses an NSGridview subclass to display the colors grid in a popover.
 
 
 <p align="center">
-<img src="Doc/Capture d’écran" alt="Sample">
+<img src="Doc/Capture d’écran.png" alt="Sample">
+<p align="center">
+<em>Sample</em>
+</p>
+</p>
+
+
+<p align="center">
+<img src="Doc/CaptureEcran2.png" alt="Sample">
 <p align="center">
 <em>Sample</em>
 </p>
