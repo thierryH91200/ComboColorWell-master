@@ -710,6 +710,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="Obi-pn-EOz" customClass="ComboColorWell" customModule="ComboColorWell" customModuleProvider="target">
+                                <rect key="frame" x="203" y="7" width="75" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="BNk-LZ-8XA"/>
+                                    <constraint firstAttribute="width" constant="75" id="wxN-bx-jiN"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allowClearColor" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="colorAction:" target="XfG-lQ-9wD" id="LqI-z6-6mI"/>
+                                </connections>
+                            </customView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wKL-10-Ftr">
                                 <rect key="frame" x="139" y="193" width="202" height="37"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Cool Runnings" id="Wy0-7I-OyK">
@@ -727,7 +740,7 @@
                                 </textFieldCell>
                             </textField>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="Jbu-QX-fZV" customClass="ComboColorWell" customModule="ComboColorWell" customModuleProvider="target">
-                                <rect key="frame" x="203" y="26" width="75" height="23"/>
+                                <rect key="frame" x="203" y="148" width="75" height="23"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="PtB-Ya-p3h"/>
                                     <constraint firstAttribute="height" constant="23" id="cUq-Ax-u8m"/>
@@ -739,27 +752,14 @@
                                     <action selector="warmAction:" target="XfG-lQ-9wD" id="Whn-iY-djG"/>
                                 </connections>
                             </customView>
-                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Obi-pn-EOz" customClass="ComboColorWell" customModule="ComboColorWell" customModuleProvider="target">
-                                <rect key="frame" x="203" y="162" width="75" height="23"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="23" id="BNk-LZ-8XA"/>
-                                    <constraint firstAttribute="width" constant="75" id="wxN-bx-jiN"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allowClearColor" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="colorAction:" target="XfG-lQ-9wD" id="LqI-z6-6mI"/>
-                                </connections>
-                            </customView>
                         </subviews>
                         <constraints>
                             <constraint firstItem="Jbu-QX-fZV" firstAttribute="centerX" secondItem="qmU-Ht-ENx" secondAttribute="centerX" id="75H-Ny-0dO"/>
-                            <constraint firstItem="Jbu-QX-fZV" firstAttribute="top" secondItem="qmU-Ht-ENx" secondAttribute="bottom" constant="14" id="D1V-r7-EtF"/>
+                            <constraint firstItem="Jbu-QX-fZV" firstAttribute="top" secondItem="qmU-Ht-ENx" secondAttribute="bottom" constant="-108" id="D1V-r7-EtF"/>
                             <constraint firstItem="wKL-10-Ftr" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="40" id="LC5-II-v4R"/>
                             <constraint firstItem="Obi-pn-EOz" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="PxD-wM-spr"/>
-                            <constraint firstAttribute="bottom" secondItem="Jbu-QX-fZV" secondAttribute="bottom" constant="26" id="SQb-EP-fdd"/>
-                            <constraint firstItem="Obi-pn-EOz" firstAttribute="top" secondItem="wKL-10-Ftr" secondAttribute="bottom" multiplier="1.5" constant="104.5" id="SbW-OI-GAN"/>
+                            <constraint firstAttribute="bottom" secondItem="Jbu-QX-fZV" secondAttribute="bottom" constant="148" id="SQb-EP-fdd"/>
+                            <constraint firstItem="Obi-pn-EOz" firstAttribute="top" secondItem="wKL-10-Ftr" secondAttribute="bottom" multiplier="1.5" constant="124.5" id="SbW-OI-GAN"/>
                             <constraint firstItem="Jbu-QX-fZV" firstAttribute="leading" secondItem="Obi-pn-EOz" secondAttribute="leading" id="a8X-Sa-nnb"/>
                             <constraint firstItem="wKL-10-Ftr" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="gj1-Tw-dfe"/>
                         </constraints>

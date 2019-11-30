@@ -14,6 +14,7 @@
 		03677408239010C70048ABDB /* ComboColorWell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03677407239010C70048ABDB /* ComboColorWell.swift */; };
 		0367740A239011FC0048ABDB /* MouseTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03677409239011FC0048ABDB /* MouseTracker.swift */; };
 		0367740C23901C580048ABDB /* ComboColorWellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0367740B23901C580048ABDB /* ComboColorWellCell.swift */; };
+		03FE648C2392B76900F95A2F /* Capture d’écran.png in Resources */ = {isa = PBXBuildFile; fileRef = 03FE648B2392B76900F95A2F /* Capture d’écran.png */; };
 		10D8D64F212F1DB2005F1C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D8D64E212F1DB2005F1C7E /* AppDelegate.swift */; };
 		10D8D651212F1DB2005F1C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D8D650212F1DB2005F1C7E /* ViewController.swift */; };
 		10D8D653212F1DB4005F1C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10D8D652212F1DB4005F1C7E /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		03677407239010C70048ABDB /* ComboColorWell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComboColorWell.swift; path = "ComboColorWell/Combo Color Well/ComboColorWell.swift"; sourceTree = SOURCE_ROOT; };
 		03677409239011FC0048ABDB /* MouseTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MouseTracker.swift; path = "ComboColorWell/Combo Color Well/MouseTracker.swift"; sourceTree = SOURCE_ROOT; };
 		0367740B23901C580048ABDB /* ComboColorWellCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ComboColorWellCell.swift; path = "ComboColorWell/Combo Color Well/ComboColorWellCell.swift"; sourceTree = SOURCE_ROOT; };
+		03FE648B2392B76900F95A2F /* Capture d’écran.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Capture d’écran.png"; sourceTree = "<group>"; };
 		10D8D64B212F1DB2005F1C7E /* ComboColorWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComboColorWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D8D64E212F1DB2005F1C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10D8D650212F1DB2005F1C7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,9 +50,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03FE648A2392B74200F95A2F /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				03FE648B2392B76900F95A2F /* Capture d’écran.png */,
+			);
+			path = Doc;
+			sourceTree = "<group>";
+		};
 		10D8D642212F1DB2005F1C7E = {
 			isa = PBXGroup;
 			children = (
+				03FE648A2392B74200F95A2F /* Doc */,
 				10D8D64D212F1DB2005F1C7E /* ComboColorWell */,
 				10D8D64C212F1DB2005F1C7E /* Products */,
 			);
@@ -154,6 +165,7 @@
 			files = (
 				10D8D653212F1DB4005F1C7E /* Assets.xcassets in Resources */,
 				03677406239010490048ABDB /* ComboColorWellImages.xcassets in Resources */,
+				03FE648C2392B76900F95A2F /* Capture d’écran.png in Resources */,
 				10D8D656212F1DB4005F1C7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
