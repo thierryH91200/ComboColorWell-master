@@ -10,3 +10,11 @@ It uses an NSGridview subclass to display the colors grid in a popover.
 <em>Sample</em>
 </p>
 </p>
+
+
+<p align="center">
+<img src="Doc/CaptureEcran2.png" alt="Sample">
+<p align="center">
+<em>Sample</em>
+</p>
+</p>
