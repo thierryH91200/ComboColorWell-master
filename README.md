@@ -3,6 +3,8 @@ A control to pick a color.  It has the look &amp; feel of the color control of A
 It uses a custom NSActionCell to handle the heavy lifting.
 It uses an NSGridview subclass to display the colors grid in a popover.
 
+# Update
+https://github.com/erne/ComboColorWell
 
 <p align="center">
 <img src="Doc/Capture d’écran.png" alt="Sample">
